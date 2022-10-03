@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&family=Roboto:wght@300;500;900&display=swap");
+
+* {
+    font-family: "Roboto", "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #0e4770;
+}
+
+#card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 750px;
+    margin: 6rem auto 8.1rem auto;
+    width: 900px;
+}
+
+#card-content {
+    padding: 12px 44px;
+}
+#card-title {
+    font-family: "Roboto", "Montserrat", sans-serif;
+    letter-spacing: 1px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+}
+
+h2 {
+    background-color: #F5F5F5;
+    margin: auto;  
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.form-input {
+    text-align: left;
+}
+
+#save-btn {
+    border-radius: 5px;
+    text-align: center;
+    background-color: #0e4770;
+    color: white;
+    margin-top: 40px;
+  }
+
+  #signin {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+  }
+  #save-btn {
+    background: #0e4770;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    height: 42.3px;
+    margin: 0 auto;
+    transition: 0.25s;
+    width: 280px;
+    margin-top: 30px;
+  }
+
+#kodeinsname {
+
+}
