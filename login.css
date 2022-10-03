@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&family=Roboto:wght@300;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #0e4770;
+}
+
+a img {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -12px;
+  width: 135px;
+  height: 48px;
+  left: 60px;
+  top: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  margin-right: 60px;
+  padding: 8px 24px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: F5F5F5;
+}
+
+.container {
+}
+
+.container h1 {
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 59px;
+}
+
+.container .formlogin img {
+  width: 150px;
+  max-height: 300px;
+  object-position: center;
+}
+
+.container .formlogin .txt-email {
+  margin-top: 20px;
+  margin-left: -118px;
+  text-align: center;
+}
+
+.container .formlogin .input-field-email {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.container .formlogin .txt-password {
+  margin-left: -87px;
+  text-align: center;
+}
+
+
+.container .formlogin .input-field {
+  text-align: center;
+}
+
+.container .formlogin .input-field .ingatkansaya {
+  color: #E5E5EA;
+}
+
+.txt-lupapass {
+  color: #00AEEF;
+}
+
+.container .formlogin .btnlogin {
+  /*margin-top: 10px;
+  margin-left: 600px; */
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .formlogin .txt-register {
+  text-align: center;
+  margin: 20px;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #0e4770;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+.logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.btnlogin {
+  border-radius: 5px;
+  text-align: center;
+  color: #0e4770;
+}
+
+.container form input {
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid black;
+  color: #fff;
+  font-size: 20px;
+}
