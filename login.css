@@ -64,17 +64,17 @@ li a:hover:not(.active) {
 
 .container .formlogin .txt-email {
   margin-top: 20px;
-  margin-left: -118px;
+  margin-left: -235px;
   text-align: center;
 }
 
 .container .formlogin .input-field-email {
-  margin-top: 20px;
+  margin-top: 30px;
   text-align: center;
 }
 
 .container .formlogin .txt-password {
-  margin-left: -87px;
+  margin-left: -204px;
   text-align: center;
 }
 
@@ -83,20 +83,21 @@ li a:hover:not(.active) {
   text-align: center;
 }
 
+.container .formlogin .input-field .chckbox-ingatkansaya {
+  margin-top: -20px;
+  margin-left: -158px;
+}
+
 .container .formlogin .input-field .ingatkansaya {
-  color: #E5E5EA;
+  color: black;
 }
 
-.txt-lupapass {
-  color: #00AEEF;
-}
-
-.container .formlogin .btnlogin {
-  /*margin-top: 10px;
-  margin-left: 600px; */
+/* .container .formlogin .btnlogin {
+  margin-top: 10px;
+  margin-left: 600px;
   border-radius: 5px;
   text-align: center;
-}
+} */
 
 .container .formlogin .txt-register {
   text-align: center;
@@ -109,27 +110,47 @@ footer {
   padding: 10px;
   color: white;
   text-align: center;
+  margin-top: 20px;
 }
 
 .logo2 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 
 .btnlogin {
   border-radius: 5px;
   text-align: center;
   color: #0e4770;
+  margin-top: 40px;
 }
 
 .container form input {
+
   padding: 8px 10px;
   margin-bottom: 15px;
-  border: none;
   background-color: transparent;
-  border: 2px solid black;
-  color: #fff;
-  font-size: 20px;
+  border: 1px solid black;
+  color: black;
+  font-size: 22px;
+  border-radius: 5px;
+}
+
+#signup {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+#submit-btn {
+  background: #0e4770;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  height: 42.3px;
+  margin: 0 auto;
+  transition: 0.25s;
+  width: 280px;
 }
