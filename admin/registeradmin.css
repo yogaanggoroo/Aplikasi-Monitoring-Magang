@@ -82,52 +82,69 @@ h2 {
   }
 
   #numberins {
+    display: flex;
+    flex-wrap: wrap;
+align-content: flex-end;
     font-size: 15px;
-    width: 50vh;
+    width: 20vh;
   }
   
   #emailins {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
     font-size: 15px;
-    width: 50vh;
+    width: 20vh;
+  }
+
+  #emailadm {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    font-size: 15px;
+    width: 20vh;
   }
 
   #passins {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
     font-size: 15px;
-    width: 50vh;
+    width: 20vh;
   }
 
   input[type=text] {
-    background-image: url('alamat.svg');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-  border-radius: 5px;
+    background-image: url('/alamat.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
   }
 
   input[type=password] {
-    background-image: url('password.svg');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-  border-radius: 5px;
+    background-image: url('/password.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
   }
 
   input[type=email] {
-    background-image: url('email.svg');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-  border-radius: 5px;
+    background-image: url('/email.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
   }
 
   input[type=number] {
-    background-image: url('kodeinstansi.svg');
-  background-position: 10px 10px; 
-  background-repeat: no-repeat;
-  padding: 12px 20px 12px 40px;
-  transition: width 0.4s ease-in-out;
-  border-radius: 5px;
+    background-image: url('/kodeinstansi.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
   }

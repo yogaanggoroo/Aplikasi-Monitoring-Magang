@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&family=Roboto:wght@300;500;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "Montserrat", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 20px;
+  overflow: hidden;
+  background-color: #0e4770;
+}
+
+a img {
+  position: absolute;
+  margin-left: 60px;
+  margin-top: -12px;
+  width: 135px;
+  height: 48px;
+  left: 60px;
+  top: 25px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  margin-right: 60px;
+  padding: 8px 24px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: F5F5F5;
+}
+
+.container {
+}
+
+.container h1 {
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 59px;
+}
+
+.container .formlogin img {
+  width: 150px;
+  max-height: 300px;
+  
+  display: flex;
+flex-direction: column;
+}
+
+.container .formlogin .txt-email {
+  margin-top: 20px;
+  margin-left: -235px;
+  text-align: center;
+}
+
+.container .formlogin .input-field-email {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.container .formlogin .txt-password {
+  margin-left: -204px;
+  text-align: center;
+}
+
+
+.container .formlogin .input-field {
+  text-align: center;
+}
+
+.container .formlogin .input-field .chckbox-ingatkansaya {
+  margin-top: -20px;
+  margin-left: -158px;
+}
+
+.container .formlogin .input-field .ingatkansaya {
+  color: black;
+}
+
+/* .container .formlogin .btnlogin {
+  margin-top: 10px;
+  margin-left: 600px;
+  border-radius: 5px;
+  text-align: center;
+} */
+
+.container .formlogin .txt-register {
+  text-align: center;
+  margin: 20px;
+  font-size: 15px;
+}
+
+footer {
+  background-color: #0e4770;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.logo2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.btnlogin {
+  border-radius: 5px;
+  text-align: center;
+  color: #0e4770;
+  margin-top: 40px;
+}
+
+.container form input {
+
+  padding: 8px 10px;
+  margin-bottom: 15px;
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  font-size: 22px;
+  border-radius: 10px;
+}
+
+#signup {
+  color: black;
+  font-size: 15px;
+  text-align: center;
+}
+#submit-btn {
+  background: #0e4770;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  height: 42.3px;
+  margin: 0 auto;
+  transition: 0.25s;
+  width: 280px;
+}
