@@ -99,7 +99,6 @@ li a:hover {
   font-family: "Roboto", "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 25px;
-  letter-spacing: 1px;
   display: inline-block;
   padding: 15px 28px;
   border-radius: 50px;
@@ -115,10 +114,57 @@ li a:hover {
   border: 2px solid #F66951 ;
 }
 
+#card {
+  background: #0e4770;
+  border-radius: 20px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+  height: 300px;
+  margin: 13rem auto 13rem auto;
+  width: 850px;
+}
+
+#card-content {
+  padding: 12px 44px;
+}
+
+#card-title {
+  font-family: "Roboto", "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.list-program {
+  margin-top: 35px;
+}
+
+#card-title p {
+  font-weight: 400;
+  padding: 2px;
+}
+
 footer {
   background-color: #0e4770;
-  padding: 10px;
+  padding: 15px;
   color: white;
   text-align: center;
   margin-top: 20px;
+}
+
+footer .active {
+  display: block;
+  color: black;
+  text-align: center;
+  margin-right: 60px;
+  padding: 8px 24px;
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #F5F5F5;
 }
