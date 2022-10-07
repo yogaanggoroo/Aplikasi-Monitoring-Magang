@@ -1,55 +1,93 @@
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="" content="firdausyogaanggoro@gmail.com, ahmadsultoni24psp@gmail.com">
-    <title>Register Admin</title>
-    <link rel="stylesheet" href="registeradmin.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="" content="firdausyogaanggoro@gmail.com, ahmadsultoni24psp@gmail.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+  <title>Register Admin</title>
+  <link rel="stylesheet" href="registeradmin.css">
 </head>
+
 <body>
-    <div id="card">
-        <div id="card-content">
-            <div id="card-title">
-                <h1>REGISTRASI</h1><br>
+  <section class="vh-100 gradient-custom">
+    <div class="container py-5 h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col-12 col-lg-9 col-xl-7">
+          <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+            <div class="card-body p-4 p-md-5">
+              <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 text-center">Registration</h3>
+              <form>
 
-                <h2><object data='/datainstansi.svg' width='20' height='20'></object> DATA INSTANSI / PERUSAHAAN</h2><br>
+                <div class="row">
+                  <div class="col-md-6 mb-4">
 
-                <div class="form-input">
-                <label for="kodeinsname">Kode Instansi Penyelenggaran</label><br>
-                <input type="number" id="kodeinsname" name="kodeinsname" value=" "><br><br>
+                    <div class="form-outline">
+                      <label class="form-label" for="firstName">First Name</label>
+                      <input type="text" id="firstName" class="form-control form-control-lg" />
+                    </div>
 
-                <label for="nameinst">Nama Instansi / perusahaan</label><br>
-                <input type="text" id="nameins" name="nameins" value=" "><br><br>
+                  </div>
+                  <div class="col-md-6 mb-4">
 
-                <label for="addressins">Alamat Instansi</label><br>
-                <input type="text" id="addressins" name="addressins" value=""><br><br>
+                    <div class="form-outline">
+                      <label class="form-label" for="lastName">Last Name</label>
+                      <input type="text" id="lastName" class="form-control form-control-lg" />
+                    </div>
 
-                <label for="numberins">Telepon Instansi</label>
-                <input type="number" id="numberins" name="numberins" value="">
-
-                <label for="emailins">Email Instansi</label>
-                <input type="email" id="emailins" name="emailins" value=""><br><br>
-            </div>
-
-                <h2><object data='/data.svg' width='20' height='20'></object> DATA ADMIN</h2><br>
-
-                <div class="form-input">
-                <label for="emailadm">Email Admin</label>
-                <input type="email" id="emailadm" name="emailadm" value="">
-
-                <label for="emailinst">Password</label>
-                <input type="password" id="passins" name="passins" value=""><br><br>
-            </div>
-
-                <div class="btnsave">
-                    <input id="save-btn" type="submit" name="submit" value="Save" /><br><br><br><br>
-                <a href="loginadmin.html" id="signin">Sudah punya akun? <span style="color: #00AEEF;">Login</span></a>
+                  </div>
                 </div>
 
+                <div class="row">
+
+
+                  <div class="form-outline w-100">
+                    <label class="form-label" for="phoneNumber">Nomor Telepon Instansi</label>
+                    <input type="tel" id="phoneNumber" class="form-control form-control-lg" />
+                  </div>
+
+                  <div class="form-outline pt-3">
+                    <label class="form-label" for="emailAddress">Email Instansi</label>
+                    <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                  </div>
+
+                </div>
+
+                <div class="row">
+
+
+                  <div class="form-outline w-100 pt-3">
+                    <label class="form-label" for="emailAddress">Email Admin</label>
+                    <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                  </div>
+
+                  <div class="form-outline pt-3">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" class="form-control form-control-lg" />
+                  </div>
+                </div>
+
+                <div class="d-grid mt-4 pt-2">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-block mb-3"
+                    style="background-color: #0E4770; color: white;">Save</button>
+                </div>
+
+                <!-- Register buttons -->
+                <div class="text-center pt-5">
+                  <p>Sudah punya akun? <a href="/admin/loginadmin.html">Login</a></p>
+                </div>
+
+              </form>
             </div>
+          </div>
         </div>
+      </div>
     </div>
+  </section>
 </body>
+
 </html>
