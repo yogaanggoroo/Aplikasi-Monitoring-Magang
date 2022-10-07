@@ -1,170 +1,82 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&family=Roboto:wght@300;500;900&display=swap");
 
+/* Smooth scroll behavior */
+:root {
+  scroll-behavior: smooth;
+}
+
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Roboto", "Montserrat", sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  padding: 20px;
-  margin: 0;
-  overflow: hidden;
-  background-color: #0e4770;
-}
-
-.navbar {
-    background-color: white;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    display: flex;
-    justify-content: center;
-   
-}
-
-a img {
-  position: absolute;
-  margin-left: 60px;
-  margin-top: -12px;
-  width: 135px;
-  height: 48px;
-  left: 60px;
-  top: 25px;
-}
-
-li a {
-  padding: 20px 25px;
-  color: #5F5F5F;
-  text-decoration: none;
-}
-
-.btn-user {
-  display: block;
-  color: black;
-  margin-right: 60px;
-  padding: 8px 24px;
-  text-decoration: none;
-  border-radius: 20px;
-}
-
-li a {
-  display: block;
-  margin: auto;
-  padding: auto;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-li a:hover {
-  background-color: #f5f5f5;
-}
-
-
-#hero {
-  width: 100%;
-  height: 100%;
-  background: url("../IndonesiaPLN.jpg") center center;
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/IndonesiaPLN.jpg");
+  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-
-#hero .container {
-  padding-top: 80px;
+h1 {
+  font-weight: 900;
+  color: white;
+  font-size: 45px;
 }
 
-
-#hero h1 {
-  margin: 0 0 10px 0;
-  font-size: 55px;
-  font-weight: 700;
-  line-height: 56px;
-  margin-top: 110px;
-  margin-left: 127px;
-  color: #fff;
-}
-#hero .contents {
-  color: #eee;
-  margin-left: 127px;
-  font-size: 25px;
+.txt-hero {
   font-weight: 400;
-  font-family: "Roboto", "Montserrat", sans-serif;
-  letter-spacing: 0.5px;
-  
+  color: white;
+  font-size: 19px;
 }
 
-#hero .btn-daftar {
-  font-family: "Roboto", "Montserrat", sans-serif;
-  font-weight: 500;
-  font-size: 25px;
+/* .hero-text button {
+  border: none;
+  outline: 0;
   display: inline-block;
-  padding: 15px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px;
-  margin-left: 127px;
-  background-color: #F66951;
-  color: #fff;
-  text-decoration: none;
-}
-#hero .btn-daftar:hover {
-  background: #F66951 ;
-  border: 2px solid #F66951 ;
-}
-
-#card {
-  background: #0e4770;
-  border-radius: 20px;
-  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-  height: 300px;
-  margin: 13rem auto 13rem auto;
-  width: 850px;
-}
-
-#card-content {
-  padding: 12px 44px;
-}
-
-#card-title {
-  font-family: "Roboto", "Montserrat", sans-serif;
-  letter-spacing: 1px;
-  
-  padding-top: 20px;
-  text-align: center;
-  color: white;
-}
-
-h2 {
-  font-weight: 500;
-  font-size: 50px;
-}
-
-.list-program {
-  margin-top: 35px;
-}
-
-#card-title p {
-  font-weight: 400;
-  padding: 2px;
-}
-
-footer {
-  background-color: #0e4770;
-  padding: 15px;
-  color: white;
-  text-align: center;
-  margin-top: 20px;
-}
-
-footer .active {
-  display: block;
+  padding: 10px 25px;
   color: black;
+  background-color: #ddd;
   text-align: center;
-  margin-right: 60px;
-  padding: 8px 24px;
-  text-decoration: none;
-  border-radius: 20px;
-  background-color: #F5F5F5;
+  cursor: pointer;
+} */
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+
+.btn-registration {
+  font-size: 14px;
+    color: #fff;
+    background: #F66951;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.container .btn-registration::hover {
+  background-color: #555;
+}
+
+.copyright {
+  font-size: 17px;
+}
+.copyright a {
+  font-weight: 600;
+}
+
+.btn-keluar {
+  font-size: 14px;
+    color: black;
+    background: #FFFFFF;
+    padding: 8px 20px;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
+.container .keluar::hover {
+  background-color: #555;
 }
