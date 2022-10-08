@@ -1,65 +1,161 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="" content="firdausyogaanggoro@gmail.com, ahmadsultoni24psp@gmail.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="magang.css">
     <title>Magang</title>
 </head>
+
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="#" class="logo">
-                    <img src="/logo_pln1.png" alt="pln1" class="logo1">
-                </a>
-                <li style="float:right"><a class="btn-user" style="background-color: f5f5f5;" href="#user">User</a></li>
-            </ul>
-            <ul class="navbar">
-                <li><a href="/user/home.html">Home</a></li>
-                <li><a href="/user/magang.html">Magang</a></li>
-                <li><a href="#profil">Profil</a></li>
-                <li><a href="#presensi">Presensi</a></li>
-                <li><a href="#laporan">Laporan</a></li>
-                <li><a href="#tugas">Tugas</a></li>
-                <li><a href="#sertifikat">Sertifikat</a></li>
-            </ul>
-        </nav>
-        </header>
-
-        <main>
-            <div id="card">
-                <div id="card-content">
-                    <div id="card-title">
-                        <h1>PROGRAM MAGANG PT PLN (PERSERO)</h1>
-
-                        <p>PT PLN (Persero) membuka kesempatan kepada seluruh Warga Negara Indonesia yang berstatus mahasiswa tingkat akhir atau lulusan baru Perguruan Tinggi serta memiliki integritas dan komitmen yang tinggi untuk mengikuti program magang.</p>
-                        <p>Persyaratan Magang :
-
-                            1. Warga negara Indonesia <br>
-                            2. Sehat Jasmani dan Rohani; <br>
-                            3. Berusia paling rendah 18 tahun <br>
-                            4. Mahasiswa tingkat akhir (telah menempuh minimal 75% dari keseluruhan perkuliahan sesuai programnya) atau lulusan perguruan tinggi program Diploma III (vokasi) atau Sarjana (S1); <br>
-                            5. IPK minimal 3.00 <br>
-                            6. Dokumen kelengkapan administrasi pendaftaran adalah sebagai berikut:
-                        </p>
-                        <p>
-                            Proposal yang memuat daftar riwayat hidup, tujuan magang, indeks prestasi kumulatif, dan bidang kerja yang diminati.
-                            CV (Curriculum Vitae)
-                            Surat pengantar atau surat rekomendasi dari perguruan tinggi asal calon peserta dengan format sebagaimana terlampir.
-                            Transkip Nilai Terakhir.
-                            Kartu Identitas.
-                            Pas Foto Terbaru.
-                            Kelengkapan administratif lainnya sesuai dengan kebutuhan unit kerja.
-                        </p>
-
-
-                    </div>
+        <nav class="navbar navbar-expand-lg" style="background-color: #0E4770">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="/logo_pln1.png" alt="Logo PLN" , width="100"></a>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <a href="#" class="btn-user text">User</a>
                 </div>
             </div>
-        </main>
-        
+        </nav>
+
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-light">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse justify-content-center" id="navbarDown">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/user/home.html" style="color: #5F5F5F;">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/user/magang.html" style="color: #5F5F5F;">Magang</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #5F5F5F;">Profil</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #5F5F5F;">Presensi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #5F5F5F;">Laporan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #5F5F5F;">Tugas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: #5F5F5F;">Sertifikat</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="pt-sm-4">
+        <div class="container-sm card">
+            <h5 class="card-header text-center">PROGRAM MAGANG PT PLN (PERSERO)</h5>
+            <div class="card-body">
+                <p class="card-text">PT PLN (Persero) membuka kesempatan kepada seluruh Warga Negara Indonesia yang
+                    berstatus mahasiswa tingkat akhir atau lulusan baru Perguruan Tinggi serta memiliki integritas dan
+                    komitmen yang tinggi untuk mengikuti program magang.</p>
+
+                <p>Persyaratan Magang :</p>
+                <p>1. Warga negara Indonesia <br>
+                    2. Sehat Jasmani dan Rohani; <br>
+                    3. Berusia paling rendah 18 tahun <br>
+                    4. Mahasiswa tingkat akhir (telah menempuh minimal 75% dari keseluruhan perkuliahan sesuai
+                    programnya) atau lulusan perguruan tinggi program Diploma III (vokasi) atau Sarjana (S1); <br>
+                    5. IPK minimal 3.00 <br>
+                    6. Dokumen kelengkapan administrasi pendaftaran adalah sebagai berikut:
+                    <ul>
+                        <li>Proposal yang memuat daftar riwayat hidup, tujuan magang, indeks prestasi kumulatif, dan
+                            bidang kerja yang diminati.
+                        </li>
+                        <li>CV (Curriculum Vitae)</li>
+                        <li>Surat pengantar atau surat rekomendasi dari perguruan tinggi asal calon peserta dengan
+                            format sebagaimana terlampir.
+                        </li>
+                        <li>Transkip Nilai Terakhir.
+                        </li>
+                        <li>Kartu Identitas</li>
+                        <li>Pas Foto Terbaru</li>
+                        <li>Kelengkapan administratif lainnya sesuai dengan kebutuhan unit kerja.</li>
+                    </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="pt-sm-4">
+        <div class="container-sm card">
+            <h5 class="card-header text-center">UNGGAH BERKAS</h5>
+            <div class="card-body">
+                <form>
+
+                    <div class="row">
+
+                        <div class="form-outline w-100">
+                            <label class="form-label" for="customFile">Pas Foto Terbaru</label>
+                            <input type="file" class="form-control" id="customFile" />
+                        </div>
+
+                        <div class="form-outline pt-3">
+                            <label class="form-label" for="customFile">Proposal Magang</label>
+                            <input type="file" class="form-control" id="customFile" />
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+                        <div class="form-outline w-100 pt-3">
+                            <label class="form-label" for="customFile">Surat Rekomendasi Magang</label>
+                            <input type="file" class="form-control" id="customFile" />
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+
+
+                        <div class="form-outline w-100 pt-3">
+                            <label class="form-label" for="customFile">Curriculum Vitae (CV)</label>
+                            <input type="file" class="form-control" id="customFile" />
+                        </div>
+
+                        <div class="form-outline pt-3">
+                            <label for="formFileMultiple" class="form-label">Portfolio</label>
+                            <input class="form-control" type="file" id="formFileMultiple" multiple />
+                        </div>
+                    </div>
+
+                    <div class="d-grid mt-4 pt-2">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-block mb-3"
+                            style="background-color: #0E4770; color: white;">Submit</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <footer class="text-center" style="background-color: #0E4770;">
+
+        <div class="copyright text-centr p-3 text-white">
+            PLN (Persero) Kantor Pusat Jalan Trunojoyo Blok M-I No.135 Kebayoran Baru, Jakarta 12160, Indonesia
+            <a href="/user/loginuser.html" class="btn-keluar text">Keluar</a>
+        </div>
+
+    </footer>
+
 </body>
+
 </html>

@@ -4,9 +4,19 @@
   font-family: "Roboto", "Montserrat", sans-serif;
 }
 
+.btn-user {
+  font-size: 14px;
+  color: black;
+  background: #FFFFFF;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 .copyright {
   font-size: 17px;
 }
 .copyright a {
-  font-weight: 600;
+  font-weight: 500;
 }

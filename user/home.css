@@ -9,9 +9,19 @@
   font-family: "Roboto", "Montserrat", sans-serif;
 }
 
+.btn-user {
+  font-size: 14px;
+  color: black;
+  background: #FFFFFF;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/IndonesiaPLN.jpg");
-  height: 65%;
+  height: 75%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -48,12 +58,12 @@ h1 {
 
 .btn-registration {
   font-size: 14px;
-    color: #fff;
-    background: #F66951;
-    padding: 8px 20px;
-    border-radius: 50px;
-    transition: 0.3s;
-    text-decoration: none;
+  color: #fff;
+  background: #F66951;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .container .btn-registration::hover {
@@ -63,18 +73,19 @@ h1 {
 .copyright {
   font-size: 17px;
 }
+
 .copyright a {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .btn-keluar {
   font-size: 14px;
-    color: black;
-    background: #FFFFFF;
-    padding: 8px 20px;
-    border-radius: 50px;
-    transition: 0.3s;
-    text-decoration: none;
+  color: black;
+  background: #FFFFFF;
+  padding: 8px 20px;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-decoration: none;
 }
 
 .container .keluar::hover {
