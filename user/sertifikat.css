@@ -19,6 +19,32 @@
     text-decoration: none;
 }
 
+.container h1 {
+    font-size: 50px;
+    font-weight: 550;
+
+}
+
+.container h2 {
+    margin-left: 55px;
+    font-size: 40px;
+    color: white;
+}
+
+.container p {
+    font-size: 30px;
+}
+
+.btn {
+    font-size: 18px;
+    color: black;
+    background: #FFFFFF;
+    padding: 8px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+
 footer {
     margin-top: 15px;
 }
