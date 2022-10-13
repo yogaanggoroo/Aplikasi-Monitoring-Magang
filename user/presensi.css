@@ -19,6 +19,10 @@
     text-decoration: none;
 }
 
+ul.nav a:hover {
+    color: #0E4770 !important;
+}
+
 .container h1 {
     font-size: 50px;
     font-weight: 550;

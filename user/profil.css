@@ -19,6 +19,10 @@
     text-decoration: none;
 }
 
+ul.nav a:hover {
+    color: #0E4770 !important;
+}
+
 footer {
     margin-top: 15px;
 }
